@@ -20,7 +20,7 @@ public class test {
 			System.out.println("-----------索引失败----------------");
 			return;
 		}
-		String word = "我们聊聊吧";
+		String word = "我们。聊聊吧，好吗";
 		LinkedList<String> data = new ReverseMatch().startReverseMatch(word);
 		System.out.println(data.toString());
 //		int count = SearchDictionary.searchDictionary(word);

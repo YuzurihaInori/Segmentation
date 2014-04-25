@@ -6,5 +6,5 @@ package com.jsdsm.algorithm;
  *
  */
 public class PositiveMatch extends Algorithm {
-
+		
 }
