@@ -5,6 +5,4 @@ package com.jsdsm.algorithm;
  * @author jisi
  *
  */
-public class PositiveMatch extends Algorithm {
-		
-}
+public class PositiveMatch extends Algorithm {}

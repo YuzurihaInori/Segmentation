@@ -1,6 +1,5 @@
 package com.jsdsm.algorithm;
 
-import java.util.ArrayList;
 
 /**
  * 分词算法管理类
@@ -22,6 +21,7 @@ public class Algorithm {
 	 */
 	private String stageProcessing(String stageText){		//替换段落内的标点符号为|
 //		String s = "哈哈!,@#W。“”";	//TEST
+	    stageText = stageText.replaceAll(" ", "");//去空格
 		stageText = stageText.replaceAll("\\pP", "|");
 		return stageText;
 		}

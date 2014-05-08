@@ -5,6 +5,6 @@ package com.jsdsm.dictionary;
  * @author jisi
  *
  */
-public class RemoveDictionary extends Dictionary {
+public class RemoveDictionary {
 
 }
