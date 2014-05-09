@@ -57,6 +57,9 @@ public class SearchDictionary {
 //		}
 //		return 0;
 //	}
-    
+    public static boolean searchDictionary(String word){
+        DictionaryTrie trie = DictionaryTrie.getInstance();
+        return trie.contains(word);
+    }
 
 }

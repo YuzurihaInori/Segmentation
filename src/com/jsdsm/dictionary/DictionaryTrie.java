@@ -368,28 +368,28 @@ public class DictionaryTrie implements Dictionary{
             show(item,indent+"\t");
         }
     }
-    public static void main(String[] args){
-        DictionaryTrie trie = getInstance();
-        trie.add("APDPlat");
-        trie.add("APP");
-        trie.add("APD");
-        trie.add("杨尚川");
-        trie.add("杨尚昆");
-        trie.add("杨尚喜");
-        trie.add("中华人民共和国");
-        trie.add("中华人民打太极");
-        trie.add("中华");
-        trie.add("中心思想");
-        trie.add("杨家将");        
-        trie.show();
-//        LOGGER.info(trie.prefix("中").toString());
-//        LOGGER.info(trie.prefix("中华").toString());
-//        LOGGER.info(trie.prefix("杨").toString());
-//        LOGGER.info(trie.prefix("杨尚").toString());
-        System.out.println(trie.prefix("中").toString());
-        System.out.println(trie.prefix("中华").toString());
-        System.out.println(trie.prefix("杨").toString());
-        System.out.println(trie.prefix("杨尚").toString());
-        
-    }
+//    public static void main(String[] args){
+//        DictionaryTrie trie = getInstance();
+//        trie.add("APDPlat");
+//        trie.add("APP");
+//        trie.add("APD");
+//        trie.add("杨尚川");
+//        trie.add("杨尚昆");
+//        trie.add("杨尚喜");
+//        trie.add("中华人民共和国");
+//        trie.add("中华人民打太极");
+//        trie.add("中华");
+//        trie.add("中心思想");
+//        trie.add("杨家将");        
+//        trie.show();
+////        LOGGER.info(trie.prefix("中").toString());
+////        LOGGER.info(trie.prefix("中华").toString());
+////        LOGGER.info(trie.prefix("杨").toString());
+////        LOGGER.info(trie.prefix("杨尚").toString());
+//        System.out.println(trie.prefix("中").toString());
+//        System.out.println(trie.prefix("中华").toString());
+//        System.out.println(trie.prefix("杨").toString());
+//        System.out.println(trie.prefix("杨尚").toString());
+//        
+//    }
 }
